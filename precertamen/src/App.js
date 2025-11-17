@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom/client";
-import { Partidas } from "./components/Partidas"; //cambiar a componente principal
+import { Reportes} from "./components/Reportes"
 
 
 export function App() {
   return (
     <Fragment>
-      <Partidas />
+      <Reportes />
     </Fragment>
   );
 }
